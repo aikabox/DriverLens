@@ -46,12 +46,12 @@ The executable is **not code-signed**, so Windows treats it as an unknown progra
 
 ## Verify what you downloaded
 
-Compare the archive against the hash published on the release page:
+Every release page publishes the SHA-256 of its own archive. Compare it against yours:
 
 ```powershell
 Get-FileHash DriverLens-portatile.zip
 ```
 
-Version 1.0.0 — SHA-256: `67DF1E749479E97AABB3981B4467E6B9E923F232FB49A003769C2B6C5946AF03`
+The version you are running is shown in *Properties → Details* on `DriverLens.exe`.
 
 The source code is not published at this time.
